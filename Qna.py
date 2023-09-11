@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 #Coding
 
-openai.api_key = "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"
+openai.api_key = ""
 load_dotenv()
 completion = openai.Completion()
 
