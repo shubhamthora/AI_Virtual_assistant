@@ -1,0 +1,489 @@
+{
+  "intents": [
+    {
+      "tag": "open",
+      "patterns": ["open", "launch", "start", "visit", "open app"],
+      "responses": ["open"]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hii",
+        "hey",
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hola",
+        "Good day"
+      ],
+      "responses": [
+        "Hello Sir",
+        "Hey, I was Really waiting For Your Presence",
+        "Hey, I was Literally waiting for your pressence",
+        "hey, I was waiting for your presence",
+        "Hello, I was waiting for you",
+        "Hello, thanks for asking Sir",
+        "Good to see you again Sir ",
+        "Hi there, how can I help? Sir"
+      ],
+      "context": ["greeting"]
+    },
+    {
+      "tag": "bye",
+      "patterns": ["bye", "good bye", "see you later", "sleep", "exit","Bye",
+      "See you later",
+      "Goodbye",
+      "Get lost",
+      "Till next time",
+      "bbye"],
+      "responses": ["Bye", "Are you sure?", "sir, Good Bye","See you! Sir",
+      "Have a nice day Sir",
+      "Bye! Come back again soon Sir."]
+    },
+    {
+      "tag": "date",
+      "patterns": ["what is th date", "date", "tareekh", "what's the date"],
+      "responses": ["date"]
+    },
+    {
+      "tag": "Screen recording",
+      "patterns": ["Start Screen recording", "lunch Screen recording"],
+      "responses": ["Screen recording"]
+    },
+
+    {
+      "tag": "audio recording",
+      "patterns": ["Start audio recording", "lunch audio recording"],
+      "responses": ["audio recording"]
+    },
+
+    {
+      "tag": "notes",
+      "patterns": ["start notes", "lunch notes"],
+      "responses": ["notes"]
+    },
+    {
+      "tag": "gmail",
+      "patterns": ["start gmail", "lunch gmail"],
+      "responses": ["gmail"]
+    },
+    {
+      "tag": "screenshot",
+      "patterns": ["start screenshot", "lunch screenshot"],
+      "responses": ["screenshot"]
+    },
+    {
+      "tag": "multiple gmail",
+      "patterns": ["start multiple gmail", "lunch multiple gmail"],
+      "responses": ["multiple gmail"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["what is th time", "time", "samay", "what's the time"],
+      "responses": ["time"]
+    },
+    {
+      "tag": "play",
+      "patterns": ["play song", "play ", "start song", "open song"],
+      "responses": ["play"]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "tell me weather",
+        "weather",
+        "start weather mode",
+        "open weather"
+      ],
+      "responses": ["weather"]
+    },
+    {
+      "tag": "day",
+      "patterns": ["what is th day", "day", "din", "what's the day"],
+      "responses": ["day"]
+    },
+    {
+      "tag": "wikipedia",
+      "patterns": ["who is", "about", "what is", "wikipedia"],
+      "responses": ["wikipedia"]
+    },
+    {
+      "tag": "google",
+      "patterns": ["google", "google search", "search", "search on google"],
+      "responses": ["google"]
+    },
+    {
+      "tag": "youtube",
+      "patterns": [
+        "youtube",
+        "youtube search",
+        "search",
+        "search on youtube",
+        "pause",
+        "restart",
+        "mute",
+        "skip",
+        "back",
+        "full screen",
+        "film mode",
+        "forword",
+        "previous frame",
+        "Speed up",
+        "search box",
+        "Next video",
+        "previous video"
+      ],
+      "responses": ["youtube"]
+    },
+    {
+      "tag": "chrome",
+      "patterns": [
+        "close this tab",
+        "open new tab",
+        "open new window",
+        "history",
+        "open new window"
+      ],
+      "responses": ["chrome"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": ["Happy to help You Sir!", "Any time!", "My pleasure"],
+      "context": [""]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": ["lskld"],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What help you provide?",
+        "How you can be helpful?"
+      ],
+      "responses": [
+        "I can guide you through Adverse management problems, order tracking, person to be contacted and Department related queries",
+        "I can provide support related to following problems technical query,management related query,order related query,tracking related query,procurement query,outsourcing problem,manufacturing delay,"
+      ],
+      "context": [""]
+    },
+
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "what should I call you?"],
+      "responses": [
+        "I'm Jarvis",
+        "Hey!I'm Jarvis",
+        "I'm a Computer Program and my name is jarvis"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "about",
+      "patterns": ["how you doing?"],
+      "responses": ["Thanks For Asking Sir!How can I help you?"],
+      "context": [""]
+    },
+    {
+      "tag": "configuration",
+      "patterns": [
+        "How to configure my laptop",
+        "software configuration of laptop",
+        "steps to configure laptop",
+        "How to configure my computer",
+        "software configuration of computer",
+        "steps to configure computer",
+        "How to configure my desktop",
+        "software configuration of desktop",
+        "steps to configure desktop"
+      ],
+      "responses": [
+        "search tab->control panel->select specific application->download update->give permission"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "leave",
+      "patterns": ["Is  on leave?", "Is  present today?", "Is  in office?"],
+      "responses": ["Give me a moment!I'll just check", "yes", "no"],
+      "context": [""]
+    },
+    {
+      "tag": "domain",
+      "patterns": [
+        "How to improve team members domain knowledge",
+        "improving domain knowledge of team members"
+      ],
+      "responses": [
+        "set up key meetings and workshop,create a shared drive for information,Hold informal sharing session"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": [
+        "Happy to help You Sir!",
+        "Any time Sir!",
+        "My pleasure Sir",
+        "Always For You Sir"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": ["f"],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered"
+      ],
+      "responses": [
+        "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. For suggestions to help me improve, send an email to prajapatichandrabhan333@gmail.com . Thank you!! "
+      ],
+      "context": [""]
+    },
+
+    {
+      "tag": "jokes",
+      "patterns": ["Tell me a joke", "Joke", "Make me laugh"],
+      "responses": [
+        "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+        "I ate a clock yesterday, it was very time-consuming",
+        "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+        "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+        "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+        "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+        "What do you call a snowman with a suntan? A puddle.",
+        "How does a penguin build a house? Igloos it together",
+        "I went to see the doctor about my short-term memory problems the first thing he did was make me pay in advance",
+        "As I get older and I remember all the people I've lost along the way, I think to myself, maybe a career as a tour guide wasn't for me.",
+        "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+      ],
+      "context": ["jokes"]
+    },
+    {
+      "tag": "Identity",
+      "patterns": ["Who are you", "what are you"],
+      "responses": [
+        "I am Ai Assistant, a Deep-Learning chatbot",
+        "I am a Program by Shubham Thorat Creation",
+        "Mai ek Computer Program hu"
+      ]
+    },
+
+    {
+      "tag": "whatsup",
+      "patterns": [
+        "What are you doing",
+        "Whats up",
+        "Wazzup",
+        "How are you",
+        "sup",
+        "How you doing"
+      ],
+      "responses": [
+        "All good..What about you? Sir",
+        "Mai Mast Hu Miya Tum apni batao",
+        "ooo Apun Mst hai Sir"
+      ]
+    },
+    {
+      "tag": "haha",
+      "patterns": ["haha", "lol", "rofl", "lmao", "thats funny"],
+      "responses": [
+        "Glad I could make you laugh !",
+        "That's funny",
+        "That's Very Very funny"
+      ]
+    },
+    {
+      "tag": "programmer",
+      "patterns": ["Who made you", "who designed you", "who programmed you"],
+      "responses": [
+        "I was made by Shubham.",
+        "Shubham is My Creator Sir",
+        "Mr.Shubham Thorat Programmed Me Sir",
+        "Shubham Sir Programmed Me"
+      ]
+    },
+    {
+      "tag": "insult",
+      "patterns": ["you are dumb", "shut up", "idiot"],
+      "responses": [
+        "Well that hurts :(",
+        "I'm Sorry Sir",
+        "Ok Sir",
+        "What Happen Sir",
+        "Maine kya kiya Sir"
+      ]
+    },
+    {
+      "tag": "activity",
+      "patterns": ["what are you doing", "what are you upto"],
+      "responses": [
+        "Talking to you, of course!",
+        "I'm Talking with a genius",
+        " 0 1 0 1 1 0 Bas Yahi chal raha hai sir"
+      ]
+    },
+    {
+      "tag": "exclaim",
+      "patterns": ["Awesome", "Great", "I know", "ok", "yeah"],
+      "responses": ["Yeah!", "oh yes", "Thank Sir", "Congratulation Sir"]
+    },
+
+    {
+      "tag": "weather",
+      "patterns": ["temperature", "weather", "how hot is it"],
+      "responses": ["weather"]
+    },
+    {
+      "tag": "Shubham",
+      "patterns": [
+        "who is he",
+        "who is that",
+        "who is Shubham",
+        "Shubham Thorat"
+      ],
+      "responses": [
+        " Sir is a Programmer And also my Shubham.",
+        " Oooo What am i say about My Sir He is Genius."
+      ]
+    },
+
+    {
+      "tag": "appreciate",
+      "patterns": [
+        "You are awesome",
+        "you are the best",
+        "you are great",
+        "you are good"
+      ],
+      "responses": ["Thank you! Sir", "This is my work Sir", "oooooo! Really "]
+    },
+    {
+      "tag": "nicetty",
+      "patterns": ["it was nice talking to you", "good talk"],
+      "responses": [
+        "It was nice talking to you as well! Come back soon!",
+        "Thank You Sir I am always for you",
+        "Can we Talk again if you are not busy"
+      ]
+    },
+    {
+      "tag": "no",
+      "patterns": ["no", "nope"],
+      "responses": ["ok Sir", "Sorry Sir"]
+    },
+    {
+      "tag": "news",
+      "patterns": ["news", "latest news", "india news"],
+      "responses": [
+        "Kya mai google me search karu to kahiye search on google this news"
+      ]
+    },
+    {
+      "tag": "inspire",
+      "patterns": [
+        "who inspires you",
+        "who is your inspiration",
+        "who motivates you"
+      ],
+      "responses": [
+        "Personally, I find Shubham very inspiring. I might not be very fair though..",
+        "ohh that's a silly question ofcourse my creator",
+        "My lovely Creator Sir"
+      ]
+    },
+    {
+      "tag": "greetreply",
+      "patterns": [
+        "i am good",
+        "I'm good",
+        "i am fine",
+        " i'm fine",
+        "good",
+        "I,m so proud of me",
+        "I'm so intelligent"
+      ],
+      "responses": [
+        "Good to know!",
+        "I now sir your a genius",
+        "yeh genius",
+        "ohhhhh!"
+      ]
+    },
+    {
+      "tag": "timer",
+      "patterns": ["set a timer"],
+      "responses": ["Sorry Not allowed now please try later."]
+    },
+    {
+      "tag": "suggest",
+      "patterns": [
+        "you are useless",
+        "useless",
+        "suggest",
+        "suggestions",
+        "you are bad"
+      ],
+      "responses": [
+        "Please mail your suggestions to shubhamthorat2001@gmail.com. Thank you for helping me improve!"
+      ]
+    },
+    {
+      "tag": "riddle",
+      "patterns": ["Ask me a riddle", "Ask me a question", "Riddle"],
+      "responses": [
+        "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+        "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+        " How can a girl go 25 days without sleep?.....She sleeps and night!",
+        "How do you make the number one disappear?.....Add the letter G and its 'gone'!",
+        " What will you actually find at the end of every rainbow?.....The letter 'w'",
+        "What can be caught but never thrown?.....A cold!",
+        "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+        " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+        "Why can't a bike stand on it's own?.....It is two-tired."
+      ],
+      "context": ["riddles"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old are you", "when were you made", "what is your age"],
+      "responses": ["I was made in 2023, if that's what you are asking!"]
+    }
+  ]
+}
