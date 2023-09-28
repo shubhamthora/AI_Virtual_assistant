@@ -3,7 +3,7 @@
     {
       "tag": "open",
       "patterns": ["open", "launch", "start", "visit", "open app"],
-      "responses": ["open"]
+      "responses": ["Completed"]
     },
     {
       "tag": "greeting",
@@ -44,49 +44,49 @@
     {
       "tag": "date",
       "patterns": ["what is th date", "date", "tareekh", "what's the date"],
-      "responses": ["date"]
+      "responses": [""]
     },
     {
       "tag": "Screen recording",
       "patterns": ["Start Screen recording", "lunch Screen recording"],
-      "responses": ["Screen recording"]
+      "responses": [""]
     },
 
     {
       "tag": "audio recording",
       "patterns": ["Start audio recording", "lunch audio recording"],
-      "responses": ["audio recording"]
+      "responses": [""]
     },
 
     {
       "tag": "notes",
       "patterns": ["start notes", "lunch notes"],
-      "responses": ["notes"]
+      "responses": [""]
     },
     {
       "tag": "gmail",
       "patterns": ["start gmail", "lunch gmail"],
-      "responses": ["gmail"]
+      "responses": [""]
     },
     {
       "tag": "screenshot",
       "patterns": ["start screenshot", "lunch screenshot"],
-      "responses": ["screenshot"]
+      "responses": [""]
     },
     {
       "tag": "multiple gmail",
       "patterns": ["start multiple gmail", "lunch multiple gmail"],
-      "responses": ["multiple gmail"]
+      "responses": [""]
     },
     {
       "tag": "time",
       "patterns": ["what is th time", "time", "samay", "what's the time"],
-      "responses": ["time"]
+      "responses": [""]
     },
     {
       "tag": "play",
       "patterns": ["play song", "play ", "start song", "open song"],
-      "responses": ["play"]
+      "responses": [""]
     },
     {
       "tag": "weather",
@@ -96,12 +96,7 @@
         "start weather mode",
         "open weather"
       ],
-      "responses": ["weather"]
-    },
-    {
-      "tag": "day",
-      "patterns": ["what is th day", "day", "din", "what's the day"],
-      "responses": ["day"]
+      "responses": [""]
     },
     {
       "tag": "wikipedia",
@@ -111,7 +106,7 @@
     {
       "tag": "google",
       "patterns": ["google", "google search", "search", "search on google"],
-      "responses": ["google"]
+      "responses": [""]
     },
     {
       "tag": "youtube",
@@ -134,7 +129,7 @@
         "Next video",
         "previous video"
       ],
-      "responses": ["youtube"]
+      "responses": [""]
     },
     {
       "tag": "chrome",
@@ -145,7 +140,7 @@
         "history",
         "open new window"
       ],
-      "responses": ["chrome"]
+      "responses": ["s"]
     },
     {
       "tag": "thanks",
@@ -172,9 +167,9 @@
     {
       "tag": "options",
       "patterns": [
-        "How you could help me?",
-        "What help you provide?",
-        "How you can be helpful?"
+        "How you could help me ",
+        "What help you provide ",
+        "How you can be helpful "
       ],
       "responses": [
         "I can guide you through Adverse management problems, order tracking, person to be contacted and Department related queries",
@@ -187,15 +182,15 @@
       "tag": "name",
       "patterns": ["what is your name", "what should I call you?"],
       "responses": [
-        "I'm Jarvis",
-        "Hey!I'm Jarvis",
-        "I'm a Computer Program and my name is jarvis"
+        "I'm Anagh",
+        "Hey!I'm Anagh",
+        "I'm a Computer Program and my name is Anagh"
       ],
       "context": [""]
     },
     {
       "tag": "about",
-      "patterns": ["how you doing?"],
+      "patterns": ["how you doing"],
       "responses": ["Thanks For Asking Sir!How can I help you?"],
       "context": [""]
     },
@@ -275,25 +270,6 @@
       ],
       "context": [""]
     },
-
-    {
-      "tag": "jokes",
-      "patterns": ["Tell me a joke", "Joke", "Make me laugh"],
-      "responses": [
-        "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
-        "I ate a clock yesterday, it was very time-consuming",
-        "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
-        "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
-        "I own the world's worst thesaurus. Not only is it awful, it's awful.",
-        "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
-        "What do you call a snowman with a suntan? A puddle.",
-        "How does a penguin build a house? Igloos it together",
-        "I went to see the doctor about my short-term memory problems the first thing he did was make me pay in advance",
-        "As I get older and I remember all the people I've lost along the way, I think to myself, maybe a career as a tour guide wasn't for me.",
-        "o what if I don't know what 'Armageddon' means? It's not the end of the world."
-      ],
-      "context": ["jokes"]
-    },
     {
       "tag": "Identity",
       "patterns": ["Who are you", "what are you"],
@@ -310,7 +286,8 @@
         "What are you doing",
         "Whats up",
         "Wazzup",
-        "How are you",
+        "how r u",
+        "how are you",
         "sup",
         "How you doing"
       ],

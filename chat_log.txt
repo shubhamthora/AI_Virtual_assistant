@@ -1,1 +1,19 @@
 s
+You : <__main__.Brain object at 0x0000026767A313D0> 
+Assistant : Narendra Modi is the current Prime Minister of India. He was sworn in on May 26, 2014, and is the first Prime Minister to be born after India's independence from British rule. Modi is a member of the Bharatiya Janata Party (BJP) and is the
+You : who is naredra modi 
+Assistant : Narendra Modi is the current Prime Minister of India. He was sworn in on May 26, 2014, and is the first Prime Minister to be born after India's independence from British rule. Modi is a member of the Bharatiya Janata Party (BJP) and is the
+You : who is naredra modi 
+Assistant : Narendra Modi is the current Prime Minister of India. He was sworn in on May 26, 2014, and is the first Prime Minister to be born after India's independence from British rule. Modi is a member of the Bharatiya Janata Party (BJP) and is the
+You : who is elon musk 
+Assistant : Elon Musk is an entrepreneur and business magnate who co-founded PayPal and Tesla Motors. He also founded SpaceX, and is now working on developing the Hyperloop.
+You : who is elon musk 
+Assistant : Elon Musk is an entrepreneur and business magnate who co-founded PayPal and Tesla Motors. He also founded SpaceX, and is now working on developing the Hyperloop.
+You : who is elon musk 
+Assistant : Elon Musk is an entrepreneur and business magnate who co-founded PayPal and Tesla Motors. He also founded SpaceX, and is now working on developing the Hyperloop.
+You : who is Elon Musk 
+Assistant : Elon Musk is an entrepreneur and business magnate who co-founded PayPal and Tesla Motors. He also founded SpaceX, and is now working on developing the Hyperloop.
+You : who is Narendra Modi 
+Assistant : Narendra Modi is the current Prime Minister of India. He was sworn in on May 26, 2014, and is the first Prime Minister to be born after India's independence from British rule. Modi is a member of the Bharatiya Janata Party (BJP) and is the
+You : who is Narendra Modi 
+Assistant : Narendra Modi is the current Prime Minister of India. He was sworn in on May 26, 2014, and is the first Prime Minister to be born after India's independence from British rule. Modi is a member of the Bharatiya Janata Party (BJP) and is the

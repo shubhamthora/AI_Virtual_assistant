@@ -3,20 +3,12 @@ from nltk.stem.porter import PorterStemmer
 from torch.utils.data import Dataset,DataLoader
 import torch.nn as nn
 import json
-import torch
-import keyboard
+import torch 
 import numpy as np 
 import random
-from Task import NonInputExecution , InputExecution
-from Gmail import Gmail
-from GmailBulk import MultipleSend
-from Calculator import Calculator
-from Audio import AudioRecording
+
 #nltk.download('punkt')
-from Task import CloseAPPS
-from ScreenRecoding import ScreenRecording
-from WritingNotes import Notes
-from Speak import Speak
+
 result=""
 def TrainTasks():
     class NeuralNet(nn.Module):
@@ -183,53 +175,4 @@ def TasksExecutor(query):
             if tag == intent["tag"]:
                 reply = random.choice(intent["responses"])
                 return reply
-
-def MainTaskExecution(Query):
-    Task = str(Query).lower()
-    TaskNew = str(Query).lower()
-    ReturnData = TaskNew
-    #Speak(ReturnData)
-    if "open" in ReturnData or "weather" in ReturnData or "close" in ReturnData or "screenshot" in ReturnData or "play" in ReturnData  or "google" in ReturnData:
-        Value=InputExecution(TaskNew)
-        return Value
-    elif "time" in ReturnData or "date" in ReturnData or "day" in ReturnData:
-        NonInputExecution(ReturnData)
-        return ""
-    elif "wikipedia" in ReturnData  or "youtube search" in ReturnData or "my location" in ReturnData  or "translate" in ReturnData:
-        Value=InputExecution(TaskNew)
-        #print(Value)
-        return Value
-    elif "close" in ReturnData:
-        CloseAPPS()
-        return True
-         
-    elif "multiple gmail" in ReturnData:
-        MultipleSend()
-        return True
-    elif "gmail" in ReturnData:
-        Gmail(TaskNew)
-        return True
-    elif "calculator" in ReturnData:
-        Calculator()
-        return True
-    elif "screen recording" in ReturnData:
-        ScreenRecording()
-        return True 
-    elif "audio recording" in ReturnData:
-        AudioRecording()
-        return True 
-    elif "notes" in ReturnData:
-        Notes()
-        return True
-    elif 'exit' in ReturnData:
-        Speak("Thanks for giving me your time")
-        exit()
-    
-    else:
-        #pass
-        ReturnData=TasksExecutor(Task)
-        return ReturnData
-        
-
-
 
