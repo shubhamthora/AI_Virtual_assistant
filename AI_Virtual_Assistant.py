@@ -1,6 +1,6 @@
 # Importing
 import datetime,wikipedia,webbrowser,os,random,requests,pyautogui,playsound, time,smtplib, ssl, csv, random,cv2,time ,keyboard
-import urllib.request,bs4 as bs,sys,threading
+import bs4 as  sys,threading
 import Annex,wolframalpha 
 from ttkthemes import themed_tk 
 import tkinter as tk
@@ -15,10 +15,9 @@ import numpy as np
 from win32api import GetSystemMetrics 
 from email.message import EmailMessage
 import sounddevice as sd
-import scipy.io.wavfile as wav
-
+import scipy.io.wavfile as wav 
 try:
-    app=wolframalpha.Client("")  #API key for wolframalpha
+    app=wolframalpha.Client(" API KEY")  #API key for wolframalpha
 except Exception as e:
     pass
 
@@ -69,7 +68,7 @@ from dotenv import load_dotenv
 fileopen = open("config.txt","r")
 API =fileopen.read()
 fileopen.close()
-openai.api_key = ""
+openai.api_key = " "
 load_dotenv()
 completion = openai.Completion()        
  
@@ -171,7 +170,7 @@ def mainframe():
 
             #who is searcing mode
             #elif 'who is' in query or'who the heck is' in query or 'who the hell is' in query or 'who is this' in query or "what is" in query or "how" in query or "question" in query or "i have query" in query or "what" in query:
-            elif there_exists(["question"], query):  
+            elif there_exists(["question","I have a quey"], query):  
                 SR.speak("Tell me Query")
                 data=SR.takeCommand()
                 Reply = ReplyBrain(data)
@@ -271,7 +270,7 @@ def mainframe():
             elif there_exists(['suggest me a password','password suggestion','i want a password'],query):
                 m3=Annex.PasswordGenerator()
                 m3.givePSWD(scrollable_text)
-                del m3
+                del m3  
             
             #screeshot
             elif there_exists(['take screenshot','take a screenshot','screenshot please','capture my screen'],query):
@@ -324,7 +323,7 @@ def mainframe():
             #weather report
             elif there_exists(['weather report'],query):
                     # Enter your API key from the Open Weather website
-                    APIKey = ''
+                    APIKey = 'Weather API KEY'
 
                     # store the base url
                     BaseURL = 'https://api.openweathermap.org/data/2.5/weather'

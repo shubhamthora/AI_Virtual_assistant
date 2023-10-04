@@ -1,7 +1,7 @@
-import datetime,subprocess,os,pyautogui,string,random,time
+import datetime,subprocess,os ,string,random 
 import pyttsx3
 import speech_recognition as sr
-import sounddevice,pywhatkit
+import sounddevice 
 from scipy.io.wavfile import write
 from tkinter import filedialog
 import tkinter as tk
@@ -11,6 +11,7 @@ from ttkthemes import themed_tk as tkth
 import tkinter.scrolledtext as scrolledtext
 from functools import partial
 import tkinter.messagebox as tmsg,sqlite3
+
 
 class SpeakRecog:
     def __init__(self,scrollable_text):
@@ -330,7 +331,7 @@ class News:
         self.SR.speak("Showing top 5 news of today.")
         self.SR.scrollable_text_clearing()
         self.SR.updating_ST("-----------------------------Top 5 news of all categories.----------------------------")
-        r=requests.get('')
+        r=requests.get('API KEY')
         data=json.loads(r.content)
         for i in range(5):
             self.SR.updating_ST_No_newline(f'News {i+1}:  ')

@@ -1,10 +1,5 @@
 {
-  "intents": [
-    {
-      "tag": "open",
-      "patterns": ["open", "launch", "start", "visit", "open app"],
-      "responses": ["Completed"]
-    },
+  "intents": [ 
     {
       "tag": "greeting",
       "patterns": [
@@ -12,7 +7,6 @@
         "hii",
         "hey",
         "Hi there",
-        "How are you",
         "Is anyone there?",
         "Hola",
         "Good day"
