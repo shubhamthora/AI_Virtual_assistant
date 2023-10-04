@@ -1,0 +1,9 @@
+Hello Sir/Madam,
+I am Shubham Thorat. This file show you how to Use/Run Ai Virtual Assistant. 
+1) Install All packages
+Ex: pip install nltk, pip install Modul name
+2) Create your API key OPENAI , NEWS , Weather and wolframalpha.
+3) Run Ai virtual Assistant.py
+4) Give commands. Ex: Open msword, wikipidia.
+
+

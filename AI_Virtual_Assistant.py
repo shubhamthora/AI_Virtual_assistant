@@ -168,7 +168,7 @@ def mainframe():
                 break
             
 
-            #who is searcing mode
+            #who is 
             #elif 'who is' in query or'who the heck is' in query or 'who the hell is' in query or 'who is this' in query or "what is" in query or "how" in query or "question" in query or "i have query" in query or "what" in query:
             elif there_exists(["question","I have a quey"], query):  
                 SR.speak("Tell me Query")
@@ -259,6 +259,26 @@ def mainframe():
                 sleep(0.5) 
                 SR.speak("Command is completed.") 
                 return True
+            
+            elif there_exists(['close','Close'],query):
+                SR.speak("Ok , Wait A second!")
+                SR.speak("Tell Me Which Application You Want To close")
+                Query = SR.takeCommand() 
+                if "ms word" or 'Ms Word' in Query:
+                    os.system("TASKKILL /F /im WINWORD.EXE")
+                elif 'Chrome' or 'chrome'in Query:
+                    os.system("TASKKILL /f /im chrome.exe")
+                elif 'Power Point' or 'power point' or 'power point' in Query:
+                    os.system("TASKKILL /F /im POWERPNT.EXE")
+                elif 'code' or 'code' in Query:
+                    os.system("TASKKILL /F /im Code.exe")
+                elif 'MS Browser' or 'ms browser' in Query:
+                    os.system("TASKKILL /F /im msedge.exe")
+                elif 'Excel' or 'excel' in Query:
+                    os.system("TASKKILL /F /im EXCEL.EXE")  
+                elif 'Brave' or 'brave' in Query:
+                    os.system("TASKKILL /F /im brave.exe")
+                SR.speak("Your Command Has Been Succesfully Completed!") 
         
             elif there_exists(['show me setting window' ],query):
                 SR.speak("Opening my Setting window..")
